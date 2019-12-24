@@ -18,4 +18,5 @@ jobs:
       - name: Build docker images
         run: |
           pipenv install
+          pipenv shell
           python main.py
