@@ -8,7 +8,6 @@ import requests
 from docker.errors import BuildError
 
 images = [
-    # {'name': 'sonar-scanner-cli', 'github_repo': 'SonarSource/sonar-scanner-cli', 'image_name': 'daixijun1990/sonar-scanner-cli'},
     {'name': 'tkn', 'github_repo': 'tektoncd/cli', 'image_name': 'daixijun1990/tkn'},
     {'name': 'kubectl', 'github_repo': 'kubernetes/kubernetes', 'image_name': 'daixijun1990/kubectl'},
     {'name': 'helm', 'github_repo': 'helm/helm', 'image_name': 'daixijun1990/helm'},
