@@ -17,6 +17,6 @@ jobs:
       - uses: dschep/install-pipenv-action@v1
       - name: Build docker images
         run: |
-          pipenv install
-          pipenv shell
+          pipenv run pip freeze > requirements.txt
+          pip install -r requirements.txt
           python main.py
