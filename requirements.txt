@@ -8,5 +8,5 @@ neovim==0.3.1
 pynvim==0.4.0
 requests==2.22.0
 six==1.12.0
-urllib3==1.25.8
+urllib3==1.26.5
 websocket-client==0.56.0
